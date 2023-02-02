@@ -5,6 +5,9 @@ on:
       branch:
         description: 'any name'     
         default: 'test-branch'
+      input2:
+        description: 'any input2'     
+        default: 'hieeeee'
 
 jobs:
   new_push_job:
